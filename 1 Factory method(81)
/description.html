@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+	</head>
+	<body>
+		<h2>Kiedy korzystać z Metody Fabrykującej</h2>
+		<p>Wzorce projektowe częściowo wybiera się na podstawie zmian, jakie chcesz wprowadzać
+			w przyszłości w programie. Tabela 3.1 z rozdziału 3. pokazuje, że ten wzorzec powinien być
+			wykorzystywany, kiedy podklasa tworzonego obiektu może się zmieniać. W przykładach
+			z tego rozdziału wszystkie podklasy interfejsu Project są zmienne — oznaczają różne kraje.
+			Jak się przekonasz, projekty to obiekty składające się z tekstu (zapiski) lub grafiki (mapy).
+			Na początku zakładamy, że programista nie wie, ile krajów może pojawić się w programie.
+			Innymi słowy, liczba i typy obiektów są nieznane. Klasa nie może przewidzieć liczby obiektów,
+			które będzie musiała stworzyć, a więc nie chcemy, aby była z tymi obiektami silnie związana.
+			Jeżeli klasa ma skończoną i znaną liczbę obiektów, które muszą zostać utworzone, można
+			napisać ją tak, aby obiekty były tworzone w przewidywalny sposób. Na przykład: jeżeli robisz
+			aplikację mapy świata z odrębnymi obiektami dla każdego z siedmiu kontynentów, możesz
+			być pewien, że ta liczba nie ulegnie zmianie. Z drugiej strony, jeżeli tworzysz stronę zawierającą
+			różne gatunki insektów, możesz być pewien, że gatunki będą odkrywane, zmieniane,
+			a część z nich wyginie w niedługich odstępach czasu. Produkt programistyczny, który poradzi
+			sobie z taką zmiennością, musi być bardzo elastyczny. Właśnie w takim projekcie powinieneś
+		rozważyć wykorzystanie wzorca projektowego Metoda Fabrykująca.</p>
+	</body>
+</html>
