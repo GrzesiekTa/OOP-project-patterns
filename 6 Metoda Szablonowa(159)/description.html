@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+<p>O metodzie w klasie abstrakcyjnej można myśleć jako o metodzie ustawiającej kolejność prymitywnych
+operacji. Pomyśl o roli, jaką odgrywa osoba organizująca wesele. Do zaplanowania
+ma serię zdarzeń (operacji), które musi ustawić w odpowiedniej kolejności — obiad, krojenie
+tortu, pierwszy taniec, przemowy oraz wszystkie inne wydarzenia mające miejsce na weselu.
+Ogólny szablon, na którym pracuje organizator, zawiera te zdarzenia uszeregowane w logicznej
+kolejności, jednak ustalenie, jak dane zdarzenie będzie dokładnie wyglądało, organizator
+pozostawia rodzinie i państwu młodym. Na przykład obiad może być zorganizowany jako
+formalne przyjęcie lub grill, pierwszym tańcem może być walc lub hip hop, a liczebność zespołu
+może wahać się od pełnej orkiestry po samotnego Jacquesa — śpiewającego akordeonistę.
+Zdarzenia mają miejsce w określonej kolejności, ale mogą się znacznie różnić.</p>
+
+<h3>Kiedy wykorzystywać wzorzec Metoda Szablonowa</h3>
+<p>Jeżeli masz już przygotowane pewne kroki algorytmu, które mogą być zaimplementowane
+	na wiele różnych sposobów, wykorzystaj wzorzec Metoda Szablonowa. Banda Czterech stwierdziła,
+	że jeżeli kroki w algorytmie są niezmienne, implementację tych kroków możesz pozostawić
+	klasom potomnym. W takim przypadku użyj wzorca pozwalającego na określanie
+	kolejności prymitywnych operacji (funkcji lub metod) w klasie abstrakcyjnej. Następnie wykorzystaj
+	klasy potomne implementujące te operacje w sposób wymagany przez aplikację.
+	Trochę bardziej skomplikowane jest użycie wzorca, gdy w celu zapobieżenia duplikacji kodu
+	wspólne zachowanie klas dziedziczących musi zostać umieszczone w jednej klasie. GoF przedstawia
+	opisany przez Opdyke’a i Johnsona „refaktoring w celu generalizacji” jako proces, który
+	polega na grupowaniu wielokrotnie powtarzającego się kodu we wzorcu Metoda Szablonowa.
+	Duplikowanie kodu może wystąpić bardzo szybko w projektach, w których kilka klas jest
+	wykorzystywanych podczas pracy nad tym samym, większym problemem.
+	Ostatnim wykorzystaniem wzorca jest kontrola podklas będących rozszerzeniami. Wiąże się
+	to z operacją „haka”, która zostanie omówiona w podrozdziale zatytułowanym „Hak we wzorcu
+	Metoda Szablonowa”. Hak pozwala na kontrolowanie rozszerzeń dzięki temu, że dozwolone
+	są one tylko w miejscach, w których obowiązuje hak.</p>
+
+
+
+</body>
+</html>
